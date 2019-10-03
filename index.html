@@ -1,131 +1,215 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--bootstrap css-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Dan Smith</title>
+	<title>Daniel Kentaro Smith</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body>
-    <div class="background"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                        role="tab" aria-controls="v-pills-profile" aria-selected="true">About Me</a>
-                    <a class="nav-link" id="v-pills-portfolio-tab" data-toggle="pill" href="#v-pills-portfolio"
-                        role="tab" aria-controls="v-pills-portfolio" aria-selected="false">Portfolio</a>
-                    <a class="nav-link" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab"
-                        aria-controls="v-pills-contact" aria-selected="false">Get in Touch</a>
-                </div>
-            </div>
-            <!--About me-->
-            <div class="col-9">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel"
-                        aria-labelledby="v-pills-profile-tab">
-                        <div class="jumbotron">
-                            <h1 class="display-4">Daniel Kentaro Smith</h1>
-                            <hr class="my-4">
-                            <img src="dan.jpg" class="rounded float-left" id="headshot">
-                            <p class="lead">Learning to code was a hobby for me at first, but after a few online
-                                classes, my hobby began picking up momentum and I try to find ways to incorporate it in
-                                to my day to day work! I enrolled in KU's coding bootcamp as a way to challenge myself,
-                                with ambitions to become a full-stack developer!
-                                At the moment, my coursework focuses on learning the basics of web development,
-                                including HTML, CSS, and Java Script. Within the next 6 months I will be working on
-                                projects that make use of SQL, Node.js and other backend tools. I am also trying to fit
-                                in side
-                                projects that use Python on my own.</p>
-                            <hr class="my-4">
+<body class="is-preload">
 
-                        </div>
-                    </div>
-                    <!--Portfolio-->
-                    <div class="tab-pane fade" id="v-pills-portfolio" role="tabpanel"
-                        aria-labelledby="v-pills-portfolio-tab">
-                        <div class="bd-example">
-                            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="banner-bg.jpg" class="d-block w-100 carousel_pic" alt="STEMM">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <a href="https://shannon-burke.github.io/Project-1/"><h5>STEMM</h5></a>
-                                            <p>Stemm was my first group project! It's an app that helps you choose house
-                                                plants!</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="background.jpg" class="d-block w-100 carousel_pic" alt="Bar Trivia">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <a href="https://kentarosmith.github.io/TriviaGame/"><h5>Bar Trivia</h5></a>
-                                            <p>A quick bar trivia game!</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="time.PNG" class="d-block w-100 carousel_pic" alt="Timesheet">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <a href="https://kentarosmith.github.io/TimeSheet/"><h5>Timesheet</h5></a>
-                                            <p>A few Classmates and I worked on making a Timesheet using Firebase!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
 
-                    </div>
-                    <!--Contact me-->
-                    <div class="tab-pane fade" id="v-pills-contact" role="tabpanel"
-                        aria-labelledby="v-pills-contact-tab">
-                        <ul class="list-group">
-                            <li class="list-group-item"><a href="https://github.com/KentaroSmith"><h1>GitHub</h1></a></li>
-                            <li class="list-group-item"><a
-                                    href="https://www.linkedin.com/in/daniel-kentaro-smith-22ab02b2/"><h1>LinkedIn</h1></a></li>
-                                    <li class="list-group-item"><a
-                                        href="mailto:daniel.smith8795@gmail.com?Subject=I%20saw%20your%20website!"><h1>Email</h1></a></li>
-                        </ul>
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">Daniel Kentaro Smith</a></h1>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- Menu -->
+		<nav id="menu">
+			<div class="inner">
+				<h2>Menu</h2>
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="https://www.linkedin.com/in/daniel-kentaro-smith-22ab02b2/">Linkedin</a></li>
+					<li><a href="https://github.com/KentaroSmith">Github</a></li>
+					<li><a href="#">Email</a></li>
+				</ul>
+				<a href="#" class="close">Close</a>
+			</div>
+		</nav>
 
-    <!--jQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <!--bootstrap and popper.js-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-        
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>Daniel Kentaro Smith</h2>
+				<div class="logo"><i class="fab fa-node-js"></i></div>
+				<div class="logo"><i class="fab fa-js"></i></div>
+				<div class="logo"><i class="fab fa-npm"></i></div>
+				<div class="logo"><i class="fas fa-database"></i></div>
+				<div class="logo"><i class="fab fa-html5"></i></div>
+				<div class="logo"><i class="fab fa-css3-alt"></i></div>
+				<p>Web developer, tech enthusiast, grade A nerd!</p>
+			</div>
+		</section>
+
+		<!-- Wrapper -->
+		<section id="wrapper">
+
+			<!-- One -->
+			<section id="one" class="wrapper spotlight style1">
+				<div class="inner">
+					<a href="#" class="image"><img src="images/dan.jpg" alt="" /></a>
+					<div class="content">
+						<h2 class="major">About me</h2>
+						<p>Learning to code was a hobby for me at first, but after a few online classes, my hobby began
+							picking up momentum and I try to find ways to incorporate it in to my day to day work! I
+							enrolled in KU's coding bootcamp as a way to challenge myself, with ambitions to become a
+							full-stack developer. I've worked on projects that make use of frameworks like handlebars
+							and bootstrap, but what I love to work on is mostly back end development.</p>
+						<a href="#footer" class="special">Feel free to get in touch!</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Two -->
+			<section id="two" class="wrapper alt spotlight style2">
+				<div class="inner">
+					<a href="#" class="image"><img src="images/code.png" alt="" /></a>
+					<div class="content">
+						<h2 class="major">Back End developer</h2>
+						<p>My background in development stems from my training at the University of Kansas' coding
+							bootcamp, a 6 month program focusing in full stack development. While I am proficient in
+							both front and back end development, back end is what I like to focus on.</p>
+						<a href="#" class="special">See some examples of my back end work!</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Three -->
+			<!-- 		<section id="three" class="wrapper spotlight style3">
+				<div class="inner">
+					<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+					<div class="content">
+						<h2 class="major">Nullam dignissim</h2>
+						<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet
+							turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla
+							dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+						<a href="#" class="special">Learn more</a>
+					</div>
+				</div>
+			</section> -->
+
+			<!-- Four -->
+			<section id="four" class="wrapper alt style1">
+				<div class="inner">
+					<h2 class="major">Portfolio</h2>
+					<p>Over the last six months I've worked hard to build a solid foundation in web development.
+						Learning to program by myself was one thing, but I also spent a great deal of time learning to
+						program with others, and master the ins and outs of trying not to work over eachother in github!
+					</p>
+					<section class="features">
+						<article>
+							<a href="https://shannon-burke.github.io/Project-1/" class="image"><img
+									src="images/stemm1.jpg" alt="" /></a>
+							<h3 class="major">STEMM</h3>
+							<p>STEMM was my first group project, made in conjunction with Shannon Burke, Sam Tricamo,
+								and Phil Rivadeneira.
+								My section of the project focused on the main functionality of the app, which consisted
+								of prompting the user to take short quiz and then hitting the wikipedia API to return
+								the article of a plant that we reccomended.</p>
+							<a href="https://github.com/shannon-burke/Project-1" class="special">Github Repo</a>
+						</article>
+						<article>
+							<a href="https://booksharemahadanevan.herokuapp.com/home" class="image"><img
+									src="images/bookshare.PNG" alt="" /></a>
+							<h3 class="major">Book Share</h3>
+							<p>This was my second group project, a lending app that lets the user track what books
+								they've loaned out, and for how long the borrower has had it. Originally the app
+								included google authentication, but to make it easier to maintain and display, we've
+								decided to remove that feature. My section of the project revolved around a lot of the
+								back end routing, data manipulation, and the email portion of the app.</p>
+							<a href="https://github.com/evandavies11/Project-2" class="special">Github Repo</a>
+						</article>
+						<article>
+							<a href="https://kentarosmith.github.io/TriviaGame/" class="image"><img
+									src="images/trivia.PNG" alt="" /></a>
+							<h3 class="major">Bar Trivia</h3>
+							<p>This is a simple bar trivia game that I made, it times the user, and after the time
+								elapses, or the user hits submit, it grades the user's answers!</p>
+							<a href="https://github.com/KentaroSmith/TriviaGame" class="special">Github Repo</a>
+						</article>
+						<!-- <article>
+							<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+							<h3 class="major">Fusce consequat</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
+								ultrices.</p>
+							<a href="#" class="special">Learn more</a>
+						</article>
+					</section>
+					<ul class="actions">
+						<li><a href="#" class="button">Browse All</a></li>
+					</ul> -->
+				</div>
+			</section>
+
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="inner">
+				<h2 class="major">Get in touch</h2>
+				<p>I have some work not listed here, and I'm always happy to answer questions about my projects! Feel
+					free to ask about anything I've done!</p>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field">
+							<label for="subject">Subject</label>
+							<input type="text" name="subject" id="subject" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" onclick="sendEmail()" /></li>
+					</ul>
+				</form>
+				<ul class="contact">
+					<li class="icon solid fa-phone">(949) 279-8302</li>
+					<li class="icon solid fa-envelope"><a href="#">daniel.smith8795@gmail.com</a></li>
+					<li class="icon solid fas fa-file-pdf"><a href="./Resume.pdf" download="DanSmithResume">Resume</a>
+					</li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled Inc. All rights reserved.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		var sendEmail = function () {
+			event.preventDefault();
+			var email = "daniel.smith8795@gmail.com";
+			var subject = $("#subject").val();
+			var emailBody = $("#message").val();
+			document.location = "mailto:" + email + "?subject=" + subject + "&body=" + emailBody;
+		}
+	</script>
 </body>
 
 </html>
